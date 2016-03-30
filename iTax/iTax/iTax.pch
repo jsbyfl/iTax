@@ -1,0 +1,21 @@
+//
+//  iTax.pch
+//  iTax
+//
+//  Created by Paddy-long on 16/3/29.
+//  Copyright © 2016年 Paddy-long. All rights reserved.
+//
+
+#ifndef iTax_pch
+#define iTax_pch
+
+#endif /* iTax_pch */
+
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+
+#define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+#define HexColor(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
